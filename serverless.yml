@@ -61,7 +61,7 @@ functions:
             enabled: true
             ttlInSeconds: 60
 
-  v2-assets:
+   v2-assets:
     handler: src/v2/assets.handler
     events:
       - http:
@@ -72,7 +72,7 @@ functions:
             enabled: true
             ttlInSeconds: 3600
 
-  v2-orderbook:
+   v2-orderbook:
     handler: src/v2/orderbook.handler
     events:
       - http:
@@ -85,7 +85,7 @@ functions:
               - name: request.path.pair
             ttlInSeconds: 3600
 
-  v2-trades:
+   v2-trades:
     handler: src/v2/trades.handler
     events:
       - http:

@@ -1,0 +1,3 @@
+- name: GitHub Action for Cloudflare Workers
+  uses: cloudflare/serverless-action@v1.1
+

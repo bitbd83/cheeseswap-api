@@ -1,5 +1,5 @@
 service:
-  name: uniswap-api-auth
+  name: rest-api
 
 frameworkVersion: ">=1.75.1 <2.0.0"
 
